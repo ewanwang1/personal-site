@@ -1,0 +1,29 @@
+
+.program-projects{
+    margin-top: 0;
+    background-color: azure;
+    padding: 50px 0 10px;
+}
+
+.pp1{
+    margin-top: 20px;
+}
+
+.pp2{
+    margin-top: 50px;
+}
+
+.design-projects-wrapper{
+    background-color:beige;
+    padding: 10px 0 20px;
+}
+
+.design-projects{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.dp{
+    margin-top: 50px;
+}

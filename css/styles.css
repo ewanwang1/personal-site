@@ -35,6 +35,7 @@ a {
   color: #11999e;
   text-decoration: none;
   margin: 0 auto 10px;
+
 }
 
 a:hover{
@@ -52,7 +53,7 @@ hr {
 .top-container {
   background-color: #d7fffd;
   position: relative;
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 
@@ -66,10 +67,27 @@ hr {
   padding: 50px 0 30px;
 }
 
+.navbar{
+  margin: 0;
+  bottom: 100px;
+  text-align: right;
+  background-color: #66bfbf;
+  padding: 10px 0 15px;
+}
+
+.nav-item{
+  margin: auto 30px auto 0;
+  height: 30px;
+  font-size: 50px;
+  color: #c2f0fc;
+}
+
+
+
 .seagull {
   position: absolute;
   right: 200px;
-  top: 50px;  
+  top: 100px;  
   width: 100px;
 }
 
@@ -95,7 +113,7 @@ hr {
 }
 
 .skill-row2 {
-  margin: 150px auto 50px auto;
+  margin: 70px auto 110px auto;
   padding: 5px 0 5px 0;
 }
 
@@ -103,15 +121,20 @@ hr {
   background-color: #baf1a1;
 }
 
-.test-img {
+.program-img {
+  position: relative;
   float: left;
-  margin-right: 30px;
+  width: 10rem;
+  margin-right: 3rem;
+  bottom: 0.7rem;
 }
 
 .test-img2 {
   float: right;
   width: 20.5%;
-  margin-left: 20px;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+
 }
 
 .footer-link {
@@ -122,6 +145,10 @@ hr {
 .copyright{
   color:#EAF6F6;
   font-size: 0.75rem;
+}
+
+.contact-me{
+  margin-top: 2rem;
 }
 
 .btn {
