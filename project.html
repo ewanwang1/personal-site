@@ -5,77 +5,172 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projects</title>
+
+        <!-- BootStrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- CSS -->
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/styles2.css">
     </head>
 
     <body>
-        <div class="navbar">
-            <div class="nav-items"></div>
-            <a href="index.html" class="nav-item">About</a>
-            <a href="project.html" class="nav-item">Projects</a>
-            <a href="" class="nav-item">Contact</a>
-        </div>
-        <div class="top-container" style="padding-bottom:0.5%; margin-bottom: 0;">
-            <h1 style="font-size: 3rem; margin: auto auto 0;">Projects I have done</h1>
-        </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-customized">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-2">
+                        <a class="nav-link nav-link-custom" href="index.html">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link nav-link-custom" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link nav-link-custom" href="#contact-me">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
 
         <div class="middle-container">
             <div class="program-projects">
-                <h2 style="margin: 0;">Dev</h2>
-                <div class="pp1">
-                    <a href="https://github.com/Ewantheman/Personal-website">Personal site</a>
-                    <p>The most up to date code for this website</p>
+                <h1 class="project-type-title">Programming projects</h1>
+                <div id="program-slides" class="carousel slide" data-interval="10000" data-ride="carousel">
+                    <ol class="carousel-indicators program-indicators">
+                        <li class="program-indicator" data-target="#program-slides" data-slide-to="0" class="active">
+                        </li>
+                        <li class="program-indicator" data-target="#program-slides" data-slide-to="1"></li>
+                        <li class="program-indicator" data-target="#program-slides" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="project-pic" src="images/simonGame.PNG" alt="First slide">
+                            <h2 class="project-title">Simon game</h2>
+                            <p class="description">I created this web app game that works just like the "Simon game".
+                                The goal of the game
+                                is to be able to memorize as much sequence as possible. </p>
+                            <a class="program-link" href="https://github.com/Ewantheman/simon-game">Source code</a>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="project-pic" src="images/McDonald-kiosk.png" alt="Second slide">
+                            <h2 class="project-title">McDonald Kiosk</h2>
+                            <p class="description">I love eating at McDonalds. When I was told to create a personal
+                                project, I figure why
+                                not combine what I love
+                                into a project. With that as motivation, I created a Java program that simulates how a
+                                real Mcdonald Kiosk will work.
+                            </p>
+                            <a class="program-link"
+                                href="https://github.com/Ewantheman/McDonald-Kiosk-full-version-">Source code</a>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="project-pic" src="images/github-mark.png" alt="Third slide">
+                            <h2 class="project-title">Want to see more?</h2>
+                            <p class="description">All my programming projects can be found on my GitHub. Click on the
+                                link below to check it out.
+                            </p>
+                            <a class="program-link" href="https://github.com/Ewantheman">My Github</a>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#program-slides" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon slide-btn" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#program-slides" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon slide-btn" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <div class="pp2">
-                    <a href="https://github.com/Ewantheman/McDonald-Kiosk-full-version-">McDonald-Kiosk</a>
-                    <p>A GUI that emulates the self checkout kiosk at Mcdonalds</p>
-                </div>
+
             </div>
-            <div class="design-projects">
 
 
-            </div>
+            <hr>
+
             <div class="design-projects-wrapper">
-                <div class="design-projects">
-                    <h2 style="margin-bottom: 0;">Design</h2>
-                    <div class="dp">
-                        <a href="https://www.figma.com/proto/C0wuA1wXafhVwKVKGEBd2J/BudgetBuddy?node-id=1%3A3&scaling=min-zoom">Budget-Buddy</a>
-                        <p>An app that helps the visually impaired to do their budgeting easily</p>
-                    </div>
-                    <div class="dp"></div>
-                    <a href="https://www.figma.com/proto/hoPI3EWjO9pfKcI14c6jQL/Untitled?node-id=1%3A2&scaling=min-zoom">Unbiased</a>
-                    <p>This small web-app is designed to combat political polarization. The user gives the webapp an
-                        article
-                        url
-                        and our app will return an article from another side of a political spectrum.
-                    </p>
+                <h1 class="project-type-title">Design projects</h1>
+                <div id="design-slides" class="carousel slide" data-interval="10000" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="design-indicator" data-target="#design-slides" data-slide-to="0" class="active"></li>
+                        <li class="design-indicator" data-target="#design-slides" data-slide-to="1"></li>
+                        <li class="design-indicator" data-target="#design-slides" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active design-item">
+                            <img class="design-pic budget-buddy-pic" src="images/budget-buddy.PNG" alt="First slide">
+                            <h2 class="project-title">Budget-Buddy</h2>
+                            <p class="description">An app that helps the visually impaired to do their budgeting easily
+                            </p>
+                            <a class="design-link"
+                                href="https://www.figma.com/proto/C0wuA1wXafhVwKVKGEBd2J/BudgetBuddy?node-id=1%3A3&scaling=min-zoom">Prototype</a>
+                        </div>
+                        <div class="carousel-item design-item">
+                            <img class="project-pic" src="images/unbiased.jpg" alt="Second slide">
+                            <h2 class="project-title">Unbiased</h2>
 
-                    <div class="dp dp3">
-                        <a href="https://docs.google.com/presentation/d/1-wM96hhWQdzJw6MlPaaouVhQrrjwreZhQOmVCGkUrfY/edit?usp=sharing">Spotter</a>
-                        <p>When I was at a hackathon, we are asked to sovle a real world problem. Through online
-                            research,
-                            we identify there's a huge population in Canada that will like to have coach. So, to help
-                            connect
-                            athlete to coaches, we designed Spotter. A mobile app that helps connect athletes to
-                            part-time
-                            coaches.
-                        </p>
+                            <p class="description">This small web-app is designed to combat political polarization. The
+                                user gives the webapp an
+                                article
+                                url
+                                and our app will return an article from another side of a political spectrum.
+                            </p>
+                            <a
+                                href="https://www.figma.com/proto/hoPI3EWjO9pfKcI14c6jQL/Untitled?node-id=1%3A2&scaling=min-zoom">Prototype</a>
+                        </div>
+                        <div class="carousel-item design-item">
+                            <img class="project-pic" src="images/Spotter.jpg" alt="Third slide">
+                            <h2 class="project-title">Spotter</h2>
+
+                            <p class="description">When I was at a hackathon, we are asked to sovle a real world
+                                problem. Through online
+                                research,
+                                we identify there's a huge population in Canada that will like to have coach. So, to
+                                help
+                                connect
+                                athlete to coaches, we designed Spotter. A mobile app that helps connect athletes to
+                                part-time
+                                coaches.
+                            </p>
+                            <a
+                                href="https://docs.google.com/presentation/d/1-wM96hhWQdzJw6MlPaaouVhQrrjwreZhQOmVCGkUrfY/edit?usp=sharing">Prototype</a>
+                        </div>
                     </div>
-                    <div class="dp dp4">
-                        <a href="http://wang95098.wixsite.com/the-king">Eccomerce Website</a>
-                        <p>This was an Eccomerce website I designed back in highschool via Wix</p>
-                    </div>
+                    <a class="carousel-control-prev" href="#design-slides" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon slide-btn" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#design-slides" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon slide-btn" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
+
             </div>
+
         </div>
 
+        <hr>
+        <div class="contact-me" id="contact-me">
+            <h2>Get In Touch</h2>
+        </div>
         <div class="bottom-container">
             <a class="footer-link" href="https://www.linkedin.com/in/tsu-yuan-ewan-wang-366a21155/">LinkedIn</a>
+            <a class="footer-link" href="mailto:wang95098@gmail.com">Email: wang95098@gmail.com</a>
             <p>@ 2020 Tsu Yuan, Wang</p>
-          </div>
-          </div>
-
+        </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 
     </body>
 

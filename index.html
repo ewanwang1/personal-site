@@ -4,9 +4,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- live server -->
+    <!-- <meta http-equiv="refresh" content="3"> -->
+
     <title>Tsu Yuan's site</title>
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- icon -->
     <link rel="icon" href="favicon.ico">
+
+    <!-- embedded font -->
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Crimson+Text|Varela+Round&display=swap"
       rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2|Marck+Script|Merienda|Viaoda+Libre&display=swap"
@@ -15,13 +30,26 @@
   </head>
 
   <body>
-    <div class="navbar">
-      <div class="nav-items"></div>
-      <a href="index.html" class="nav-item">About</a>
-      <a href="project.html" class="nav-item">Projects</a>
-      <a href="" class="nav-item">Contact</a>
-    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-customized">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item px-2">
+            <a class="nav-link nav-link-custom" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link nav-link-custom" href="project.html">Projects</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link nav-link-custom" href="#contact-me">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
     <div class="top-container">
+      <!-- Image and text -->
       <img class="seagull" src="images/seagull.png" alt="seagull img">
       <h1>I'm Tsu Yuan</h1>
       <h2>App Design/Developer</h2>
@@ -37,38 +65,44 @@
       </div>
       <hr>
       <div class="skills">
-        <h2 >My Skills.</h2>
+        <h2>My Skills.</h2>
         <div class="skill-row">
           <img class="program-img" src="images/workplace.png" alt="programming-pic">
           <h3>Programming</h3>
           <p>Coding makes my brain go to work and that's what I love about it.
-            I have built some apps and websites using various front-end and back-end languages. 
-            If you have an app idea in mind, I'm the guy that can make it come alive.
+            I have built some apps and websites using various front-end and back-end languages.
+            If you have an app idea in mind, I'm the guy that can bring it to live.
           </p>
         </div>
         <div class="skill-row2">
           <div class="skill-row">
             <img class="test-img2" src="images/innovation.png" alt="test-img2">
             <h3>UX Design</h3>
-            <p>Designing is like an art to me. Creating a beautiful interface that's easy for the users brings me so
-              much joy. For this reason, I have designed various prototypes for both mobile apps and webapps. You can see 
-              those designs in my projects collection.
+
+            <p>Designing is like an art to me. Creating a beautiful interface that's easy for the users to navigate
+              brings me so
+              much joy. For this reason, I have designed various prototypes for both mobile apps and webapps. You can
+              see those designs in my projects collection.
             </p>
           </div>
         </div>
       </div>
       <hr>
-      <div class="contact-me">
+      <div class="contact-me" id="contact-me">
         <h2>Get In Touch</h2>
-        <a class="btn" href="mailto:wang95098@gmail.com">CONTACT ME</a>
       </div>
     </div>
 
     <div class="bottom-container">
       <a class="footer-link" href="https://www.linkedin.com/in/tsu-yuan-ewan-wang-366a21155/">LinkedIn</a>
+      <a class="footer-link" href="mailto:wang95098@gmail.com">Email: wang95098@gmail.com</a>
       <p>@ 2020 Tsu Yuan, Wang</p>
     </div>
     </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   </body>
 
