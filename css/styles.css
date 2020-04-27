@@ -78,6 +78,10 @@ hr {
     font-size: 25px;
 }
 
+.my-name{
+  font-weight: bold;
+}
+
 
 .seagull {
   position: absolute;
