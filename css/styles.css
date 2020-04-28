@@ -150,7 +150,13 @@ hr {
 }
 
 .contact-me{
-  margin-top: 2rem;
+  margin: 2rem auto;
+  width: 30%;
+}
+
+.contact-msg{
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 
