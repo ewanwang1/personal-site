@@ -71,6 +71,9 @@ hr {
   background-color: #66bfbf;
 }
 
+.custom-toggler{
+  background-color: #c2f0fc;
+}
 
 /* nav item */
 .navbar-light .navbar-nav .nav-link {
@@ -163,4 +166,13 @@ hr {
 #profile-pic {
   margin-top: 40px;
   width: 250px;
+}
+
+@media (max-width: 600px){
+  .seagull{
+    visibility: hidden;
+  }
+  .bottom-cloud{
+    visibility: hidden;
+  }
 }
