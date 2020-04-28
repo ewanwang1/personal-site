@@ -89,4 +89,8 @@ hr {
   .project-pic {
     height: 30%;
   }
+
+  .project-type-title{
+    font-size: 300%;
+  }
 }
