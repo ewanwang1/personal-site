@@ -33,12 +33,11 @@ hr {
   margin: auto;
 }
 
-
-.carousel-indicators li.program-indicator{
+.carousel-indicators li.program-indicator {
   background-color: #00a8cc;
 }
 
-.carousel-indicators.program-indicators .active{
+.carousel-indicators.program-indicators .active {
   background-color: black;
 }
 
@@ -48,7 +47,7 @@ hr {
 }
 
 .project-pic {
-  height: 300px;
+  height: 50%;
 }
 
 .program-link:hover {
@@ -67,9 +66,8 @@ hr {
 }
 
 .design-pic {
-  height: 400px;
+  height: 50%;
 }
-
 
 .carousel-indicators {
   margin-bottom: 0;
@@ -81,4 +79,14 @@ hr {
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width: 600px) {
+  .design-pic {
+    height: 40%;
+  }
+
+  .project-pic {
+    height: 30%;
+  }
 }
