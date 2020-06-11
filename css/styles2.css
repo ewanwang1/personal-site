@@ -50,6 +50,10 @@ hr {
   height: 50%;
 }
 
+.program-link{
+   color:blue;
+}
+
 .program-link:hover {
   color: #0f4c81;
 }
@@ -64,6 +68,15 @@ hr {
   transform: rotate(20deg);
   z-index: 0;
 }
+
+.design-link{
+  color: blue;
+}
+
+.design-link:hover{
+   color: #0f4c81;
+}
+
 
 .design-pic {
   height: 50%;
